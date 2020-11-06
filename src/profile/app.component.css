@@ -43,11 +43,13 @@ body {
   grid-column: 2;
   justify-content: space-around;
   margin-top: 2%;
+  margin-bottom: 1in;
 }
 .box3 {
   grid-column: 3 / span 2;
   justify-content: space-around;
   margin-right: 0.3in;
+  margin-bottom: 1in;
 }
 .img1 {
   justify-content: space-around;
@@ -63,18 +65,23 @@ body {
   padding: 2%;
   margin-top: 20%;
   margin-left: 10%;
-  line-height: 2.5vh;
 }
-
-.sbox h3,
-h1 {
-  font-size: 2.5vh;
+.sbox,
+h2 {
+  font-size: 3vh;
+}
+.sbox,
+h3 {
+  font-size: 2vh;
 }
 p {
   font-size: 2vh;
+  text-indent: 15%;
+  text-decoration-style: justify;
 }
 .nav1 h3 {
   color: rgb(221, 221, 221);
   letter-spacing: 20px;
   word-spacing: 30px;
+  margin-left: 6%;
 }
