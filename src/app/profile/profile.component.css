@@ -12,7 +12,7 @@ body {
 .nav {
   display: flex;
   background-color: blueviolet;
-  justify-content: space-around;
+  justify-content: left;
   min-width: 8vw;
   box-shadow: 1px 2px 7px 1px;
 }
@@ -28,6 +28,9 @@ body {
   color: rgb(241, 241, 241);
   letter-spacing: 5px;
   font-size: 22px;
+}
+.logo h4 {
+  margin-left: 5vw;
 }
 .container {
   background-color: rgba(255, 255, 255, 0.904);
