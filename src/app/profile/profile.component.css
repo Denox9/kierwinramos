@@ -12,8 +12,10 @@ body {
 .nav {
   display: flex;
   background-color: blueviolet;
-  justify-content: left;
-  min-width: 8vw;
+  margin-left: 3.5em;
+  margin-top: 1em;
+  min-width: 7vw;
+  max-width: 90vw;
   box-shadow: 1px 2px 7px 1px;
 }
 .nav1 {
@@ -29,7 +31,7 @@ body {
   letter-spacing: 5px;
   font-size: 22px;
 }
-.logo h4 {
+.logo h2 {
   margin-left: 5vw;
 }
 .container {
